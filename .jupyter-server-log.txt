@@ -1,0 +1,223 @@
+Launching jupyter-lab
+[I 2023-07-27 18:25:17.693 ServerApp] jupyter_offlinenotebook | extension was successfully linked.
+[I 2023-07-27 18:25:17.693 ServerApp] jupyter_resource_usage | extension was successfully linked.
+[I 2023-07-27 18:25:17.699 ServerApp] jupyter_server_fileid | extension was successfully linked.
+[I 2023-07-27 18:25:17.699 ServerApp] jupyter_server_proxy | extension was successfully linked.
+[I 2023-07-27 18:25:17.704 ServerApp] jupyter_server_ydoc | extension was successfully linked.
+[W 2023-07-27 18:25:17.706 LabApp] 'base_url' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-07-27 18:25:17.706 LabApp] 'token' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-07-27 18:25:17.706 LabApp] 'trust_xheaders' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-07-27 18:25:17.706 LabApp] 'allow_origin' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-07-27 18:25:17.706 LabApp] 'allow_origin_pat' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2023-07-27 18:25:17.709 ServerApp] jupyterlab | extension was successfully linked.
+[W 2023-07-27 18:25:17.712 NotebookApp] 'extra_template_paths' was found in both NotebookApp and ServerApp. This is likely a recent change. This config will only be set in NotebookApp. Please check if you should also config these traits in ServerApp for your purpose.
+[W 2023-07-27 18:25:17.712 NotebookApp] 'jinja_template_vars' was found in both NotebookApp and ServerApp. This is likely a recent change. This config will only be set in NotebookApp. Please check if you should also config these traits in ServerApp for your purpose.
+[W 2023-07-27 18:25:17.712 NotebookApp] 'allow_origin' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-07-27 18:25:17.712 NotebookApp] 'shutdown_no_activity_timeout' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-07-27 18:25:17.712 NotebookApp] 'tornado_settings' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2023-07-27 18:25:17.716 ServerApp] nbclassic | extension was successfully linked.
+[I 2023-07-27 18:25:17.717 ServerApp] Writing Jupyter server cookie secret to /home/jovyan/.local/share/jupyter/runtime/jupyter_cookie_secret
+[I 2023-07-27 18:25:18.426 ServerApp] notebook_shim | extension was successfully linked.
+[I 2023-07-27 18:25:18.467 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2023-07-27 18:25:18.468 ServerApp] jupyter_offlinenotebook | extension was successfully loaded.
+[I 2023-07-27 18:25:18.469 ServerApp] jupyter_resource_usage | extension was successfully loaded.
+[I 2023-07-27 18:25:18.469 FileIdExtension] Configured File ID manager: ArbitraryFileIdManager
+[I 2023-07-27 18:25:18.469 FileIdExtension] ArbitraryFileIdManager : Configured root dir: /home/jovyan
+[I 2023-07-27 18:25:18.470 FileIdExtension] ArbitraryFileIdManager : Configured database path: /home/jovyan/.local/share/jupyter/file_id_manager.db
+[I 2023-07-27 18:25:18.472 FileIdExtension] ArbitraryFileIdManager : Successfully connected to database file.
+[I 2023-07-27 18:25:18.472 FileIdExtension] ArbitraryFileIdManager : Creating File ID tables and indices with journal_mode = DELETE
+[I 2023-07-27 18:25:18.522 ServerApp] jupyter_server_fileid | extension was successfully loaded.
+[I 2023-07-27 18:25:18.549 ServerApp] jupyter_server_proxy | extension was successfully loaded.
+[I 2023-07-27 18:25:18.550 ServerApp] jupyter_server_ydoc | extension was successfully loaded.
+[I 2023-07-27 18:25:18.551 LabApp] JupyterLab extension loaded from /srv/conda/envs/notebook/lib/python3.9/site-packages/jupyterlab
+[I 2023-07-27 18:25:18.551 LabApp] JupyterLab application directory is /srv/conda/envs/notebook/share/jupyter/lab
+[I 2023-07-27 18:25:18.556 ServerApp] jupyterlab | extension was successfully loaded.
+
+  _   _          _      _
+ | | | |_ __  __| |__ _| |_ ___
+ | |_| | '_ \/ _` / _` |  _/ -_)
+  \___/| .__/\__,_\__,_|\__\___|
+       |_|
+                                                                           
+Read the migration plan to Notebook 7 to learn about the new features and the actions to take if you are using extensions.
+
+https://jupyter-notebook.readthedocs.io/en/latest/migrate_to_notebook7.html
+
+Please note that updating to Notebook 7 might break some of your extensions.
+
+[I 2023-07-27 18:25:18.562 ServerApp] nbclassic | extension was successfully loaded.
+[I 2023-07-27 18:25:18.562 ServerApp] Will shut down after 600 seconds with no kernels or terminals.
+[I 2023-07-27 18:25:18.563 ServerApp] Serving notebooks from local directory: /home/jovyan
+[I 2023-07-27 18:25:18.564 ServerApp] Jupyter Server 1.23.6 is running at:
+[I 2023-07-27 18:25:18.564 ServerApp] http://jupyter-elizaoser-2dmlp-2d1npinnmq:8888/user/elizaoser-mlp-1npinnmq/lab?token=...
+[I 2023-07-27 18:25:18.564 ServerApp]  or http://127.0.0.1:8888/user/elizaoser-mlp-1npinnmq/lab?token=...
+[I 2023-07-27 18:25:18.564 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 2023-07-27 18:25:18.569 ServerApp] No web browser found: could not locate runnable browser.
+[I 2023-07-27 18:25:19.158 ServerApp] 302 GET /user/elizaoser-mlp-1npinnmq/ (10.2.6.39) 1.95ms
+[I 2023-07-27 18:25:19.613 ServerApp] 302 GET /user/elizaoser-mlp-1npinnmq/?token=[secret] (128.146.189.96) 1.86ms
+[W 2023-07-27 18:25:22.642 ServerApp] 404 GET /user/elizaoser-mlp-1npinnmq/api/me?1690482321978 (128.146.189.96) 252.46ms referer=https://hub.ovh2.mybinder.org/user/elizaoser-mlp-1npinnmq/lab
+[I 2023-07-27 18:25:26.528 LabApp] Build is up to date
+[I 2023-07-27 18:25:40.696 ServerApp] Uploading file to /iris.csv
+[I 2023-07-27 18:25:41.158 ServerApp] Uploading file to /pyMLP.ipynb
+[I 2023-07-27 18:25:41.187 ServerApp] Uploading file to /rMLP.ipynb
+[I 2023-07-27 18:26:39.242 ServerApp] Writing notebook-signing key to /home/jovyan/.local/share/jupyter/notebook_secret
+[W 2023-07-27 18:26:39.247 ServerApp] Notebook pyMLP.ipynb is not trusted
+[I 2023-07-27 18:26:41.121 ServerApp] Kernel started: 26eaffe6-72f9-4f2f-abce-119ea0196ebf
+[I 2023-07-27 18:26:41.122 ServerApp] Culling kernels with idle durations > 600 seconds at 60 second intervals ...
+[I 2023-07-27 18:26:41.122 ServerApp] Culling kernels even with connected clients
+/srv/conda/envs/notebook/lib/python3.9/json/encoder.py:257: UserWarning: date_default is deprecated since jupyter_client 7.0.0. Use jupyter_client.jsonutil.json_default.
+  return _iterencode(o, 0)
+[W 2023-07-27 18:26:42.082 ServerApp] Could not destroy zmq context for <jupyter_client.asynchronous.client.AsyncKernelClient object at 0x7f9038fe75b0>
+[I 2023-07-27 18:26:42.346 ServerApp] Starting buffering for 26eaffe6-72f9-4f2f-abce-119ea0196ebf:eb527d4a-9022-449e-a5e6-a4a35be787fa
+[I 2023-07-27 18:26:43.026 ServerApp] Kernel restarted: 26eaffe6-72f9-4f2f-abce-119ea0196ebf
+[W 2023-07-27 18:26:43.861 ServerApp] Could not destroy zmq context for <jupyter_client.asynchronous.client.AsyncKernelClient object at 0x7f9038d48bb0>
+[I 2023-07-27 18:26:59.017 ServerApp] Saving file at /pyMLP.ipynb
+[W 2023-07-27 18:27:01.685 ServerApp] Notebook rMLP.ipynb is not trusted
+[I 2023-07-27 18:27:04.254 ServerApp] Kernel started: 24a0a6e5-deef-49e9-9649-0c965030895f
+[W 2023-07-27 18:27:05.884 ServerApp] Could not destroy zmq context for <jupyter_client.asynchronous.client.AsyncKernelClient object at 0x7f9038e55c10>
+[I 2023-07-27 18:27:06.203 ServerApp] Kernel restarted: 24a0a6e5-deef-49e9-9649-0c965030895f
+[W 2023-07-27 18:27:08.026 ServerApp] Could not destroy zmq context for <jupyter_client.asynchronous.client.AsyncKernelClient object at 0x7f9038e66ee0>
+trying URL 'https://cran.r-project.org/src/contrib/caret_6.0-94.tar.gz'
+Content type 'application/x-gzip' length 2274203 bytes (2.2 MB)
+==================================================
+downloaded 2.2 MB
+
+* installing *source* package ‘caret’ ...
+** package ‘caret’ successfully unpacked and MD5 sums checked
+[I 2023-07-27 18:27:12.059 ServerApp] New terminal with automatic name: 1
+** using staged installation
+** libs
+using C compiler: ‘x86_64-conda-linux-gnu-cc (conda-forge gcc 13.1.0-0) 13.1.0’
+x86_64-conda-linux-gnu-cc -I"/srv/conda/envs/notebook/lib/R/include" -DNDEBUG   -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /srv/conda/envs/notebook/include -I/srv/conda/envs/notebook/include -Wl,-rpath-link,/srv/conda/envs/notebook/lib    -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /srv/conda/envs/notebook/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1689933267587/work=/usr/local/src/conda/r-base-4.3.1 -fdebug-prefix-map=/srv/conda/envs/notebook=/usr/local/src/conda-prefix  -c caret.c -o caret.o
+x86_64-conda-linux-gnu-cc -shared -L/srv/conda/envs/notebook/lib/R/lib -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/srv/conda/envs/notebook/lib -Wl,-rpath-link,/srv/conda/envs/notebook/lib -L/srv/conda/envs/notebook/lib -o caret.so caret.o -L/srv/conda/envs/notebook/lib/R/lib -lR
+installing to /srv/conda/envs/notebook/lib/R/library/00LOCK-caret/00new/caret/libs
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (caret)
+
+The downloaded source packages are in
+	‘/tmp/RtmpXDIXjY/downloaded_packages’
+trying URL 'https://cran.r-project.org/src/contrib/ellipse_0.5.0.tar.gz'
+Content type 'application/x-gzip' length 160353 bytes (156 KB)
+==================================================
+downloaded 156 KB
+
+* installing *source* package ‘ellipse’ ...
+** package ‘ellipse’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (ellipse)
+
+The downloaded source packages are in
+	‘/tmp/RtmpXDIXjY/downloaded_packages’
+trying URL 'https://cran.r-project.org/src/contrib/kernlab_0.9-32.tar.gz'
+Content type 'application/x-gzip' length 1215773 bytes (1.2 MB)
+==================================================
+downloaded 1.2 MB
+
+* installing *source* package ‘kernlab’ ...
+** package ‘kernlab’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘x86_64-conda-linux-gnu-cc (conda-forge gcc 13.1.0-0) 13.1.0’
+using C++ compiler: ‘x86_64-conda-linux-gnu-c++ (conda-forge gcc 13.1.0-0) 13.1.0’
+x86_64-conda-linux-gnu-c++ -std=gnu++17 -I"/srv/conda/envs/notebook/lib/R/include" -DNDEBUG   -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /srv/conda/envs/notebook/include -I/srv/conda/envs/notebook/include -Wl,-rpath-link,/srv/conda/envs/notebook/lib    -fpic  -fvisibility-inlines-hidden  -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /srv/conda/envs/notebook/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1689933267587/work=/usr/local/src/conda/r-base-4.3.1 -fdebug-prefix-map=/srv/conda/envs/notebook=/usr/local/src/conda-prefix  -c brweight.cpp -o brweight.o
+x86_64-conda-linux-gnu-c++ -std=gnu++17 -I"/srv/conda/envs/notebook/lib/R/include" -DNDEBUG   -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /srv/conda/envs/notebook/include -I/srv/conda/envs/notebook/include -Wl,-rpath-link,/srv/conda/envs/notebook/lib    -fpic  -fvisibility-inlines-hidden  -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /srv/conda/envs/notebook/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1689933267587/work=/usr/local/src/conda/r-base-4.3.1 -fdebug-prefix-map=/srv/conda/envs/notebook=/usr/local/src/conda-prefix  -c ctable.cpp -o ctable.o
+x86_64-conda-linux-gnu-c++ -std=gnu++17 -I"/srv/conda/envs/notebook/lib/R/include" -DNDEBUG   -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /srv/conda/envs/notebook/include -I/srv/conda/envs/notebook/include -Wl,-rpath-link,/srv/conda/envs/notebook/lib    -fpic  -fvisibility-inlines-hidden  -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /srv/conda/envs/notebook/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1689933267587/work=/usr/local/src/conda/r-base-4.3.1 -fdebug-prefix-map=/srv/conda/envs/notebook=/usr/local/src/conda-prefix  -c cweight.cpp -o cweight.o
+x86_64-conda-linux-gnu-cc -I"/srv/conda/envs/notebook/lib/R/include" -DNDEBUG   -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /srv/conda/envs/notebook/include -I/srv/conda/envs/notebook/include -Wl,-rpath-link,/srv/conda/envs/notebook/lib    -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /srv/conda/envs/notebook/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1689933267587/work=/usr/local/src/conda/r-base-4.3.1 -fdebug-prefix-map=/srv/conda/envs/notebook=/usr/local/src/conda-prefix  -c dbreakpt.c -o dbreakpt.o
+x86_64-conda-linux-gnu-cc -I"/srv/conda/envs/notebook/lib/R/include" -DNDEBUG   -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /srv/conda/envs/notebook/include -I/srv/conda/envs/notebook/include -Wl,-rpath-link,/srv/conda/envs/notebook/lib    -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /srv/conda/envs/notebook/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1689933267587/work=/usr/local/src/conda/r-base-4.3.1 -fdebug-prefix-map=/srv/conda/envs/notebook=/usr/local/src/conda-prefix  -c dcauchy.c -o dcauchy.o
+x86_64-conda-linux-gnu-cc -I"/srv/conda/envs/notebook/lib/R/include" -DNDEBUG   -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /srv/conda/envs/notebook/include -I/srv/conda/envs/notebook/include -Wl,-rpath-link,/srv/conda/envs/notebook/lib    -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /srv/conda/envs/notebook/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1689933267587/work=/usr/local/src/conda/r-base-4.3.1 -fdebug-prefix-map=/srv/conda/envs/notebook=/usr/local/src/conda-prefix  -c dgpnrm.c -o dgpnrm.o
+x86_64-conda-linux-gnu-cc -I"/srv/conda/envs/notebook/lib/R/include" -DNDEBUG   -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /srv/conda/envs/notebook/include -I/srv/conda/envs/notebook/include -Wl,-rpath-link,/srv/conda/envs/notebook/lib    -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /srv/conda/envs/notebook/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1689933267587/work=/usr/local/src/conda/r-base-4.3.1 -fdebug-prefix-map=/srv/conda/envs/notebook=/usr/local/src/conda-prefix  -c dgpstep.c -o dgpstep.o
+x86_64-conda-linux-gnu-cc -I"/srv/conda/envs/notebook/lib/R/include" -DNDEBUG   -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /srv/conda/envs/notebook/include -I/srv/conda/envs/notebook/include -Wl,-rpath-link,/srv/conda/envs/notebook/lib    -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /srv/conda/envs/notebook/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1689933267587/work=/usr/local/src/conda/r-base-4.3.1 -fdebug-prefix-map=/srv/conda/envs/notebook=/usr/local/src/conda-prefix  -c dprecond.c -o dprecond.o
+x86_64-conda-linux-gnu-cc -I"/srv/conda/envs/notebook/lib/R/include" -DNDEBUG   -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /srv/conda/envs/notebook/include -I/srv/conda/envs/notebook/include -Wl,-rpath-link,/srv/conda/envs/notebook/lib    -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /srv/conda/envs/notebook/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1689933267587/work=/usr/local/src/conda/r-base-4.3.1 -fdebug-prefix-map=/srv/conda/envs/notebook=/usr/local/src/conda-prefix  -c dprsrch.c -o dprsrch.o
+x86_64-conda-linux-gnu-cc -I"/srv/conda/envs/notebook/lib/R/include" -DNDEBUG   -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /srv/conda/envs/notebook/include -I/srv/conda/envs/notebook/include -Wl,-rpath-link,/srv/conda/envs/notebook/lib    -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /srv/conda/envs/notebook/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1689933267587/work=/usr/local/src/conda/r-base-4.3.1 -fdebug-prefix-map=/srv/conda/envs/notebook=/usr/local/src/conda-prefix  -c dspcg.c -o dspcg.o
+x86_64-conda-linux-gnu-cc -I"/srv/conda/envs/notebook/lib/R/include" -DNDEBUG   -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /srv/conda/envs/notebook/include -I/srv/conda/envs/notebook/include -Wl,-rpath-link,/srv/conda/envs/notebook/lib    -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /srv/conda/envs/notebook/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1689933267587/work=/usr/local/src/conda/r-base-4.3.1 -fdebug-prefix-map=/srv/conda/envs/notebook=/usr/local/src/conda-prefix  -c dtron.c -o dtron.o
+x86_64-conda-linux-gnu-cc -I"/srv/conda/envs/notebook/lib/R/include" -DNDEBUG   -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /srv/conda/envs/notebook/include -I/srv/conda/envs/notebook/include -Wl,-rpath-link,/srv/conda/envs/notebook/lib    -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /srv/conda/envs/notebook/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1689933267587/work=/usr/local/src/conda/r-base-4.3.1 -fdebug-prefix-map=/srv/conda/envs/notebook=/usr/local/src/conda-prefix  -c dtrpcg.c -o dtrpcg.o
+x86_64-conda-linux-gnu-cc -I"/srv/conda/envs/notebook/lib/R/include" -DNDEBUG   -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /srv/conda/envs/notebook/include -I/srv/conda/envs/notebook/include -Wl,-rpath-link,/srv/conda/envs/notebook/lib    -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /srv/conda/envs/notebook/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1689933267587/work=/usr/local/src/conda/r-base-4.3.1 -fdebug-prefix-map=/srv/conda/envs/notebook=/usr/local/src/conda-prefix  -c dtrqsol.c -o dtrqsol.o
+x86_64-conda-linux-gnu-c++ -std=gnu++17 -I"/srv/conda/envs/notebook/lib/R/include" -DNDEBUG   -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /srv/conda/envs/notebook/include -I/srv/conda/envs/notebook/include -Wl,-rpath-link,/srv/conda/envs/notebook/lib    -fpic  -fvisibility-inlines-hidden  -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /srv/conda/envs/notebook/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1689933267587/work=/usr/local/src/conda/r-base-4.3.1 -fdebug-prefix-map=/srv/conda/envs/notebook=/usr/local/src/conda-prefix  -c esa.cpp -o esa.o
+x86_64-conda-linux-gnu-c++ -std=gnu++17 -I"/srv/conda/envs/notebook/lib/R/include" -DNDEBUG   -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /srv/conda/envs/notebook/include -I/srv/conda/envs/notebook/include -Wl,-rpath-link,/srv/conda/envs/notebook/lib    -fpic  -fvisibility-inlines-hidden  -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /srv/conda/envs/notebook/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1689933267587/work=/usr/local/src/conda/r-base-4.3.1 -fdebug-prefix-map=/srv/conda/envs/notebook=/usr/local/src/conda-prefix  -c expdecayweight.cpp -o expdecayweight.o
+x86_64-conda-linux-gnu-c++ -std=gnu++17 -I"/srv/conda/envs/notebook/lib/R/include" -DNDEBUG   -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /srv/conda/envs/notebook/include -I/srv/conda/envs/notebook/include -Wl,-rpath-link,/srv/conda/envs/notebook/lib    -fpic  -fvisibility-inlines-hidden  -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /srv/conda/envs/notebook/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1689933267587/work=/usr/local/src/conda/r-base-4.3.1 -fdebug-prefix-map=/srv/conda/envs/notebook=/usr/local/src/conda-prefix  -c inductionsort.cpp -o inductionsort.o
+x86_64-conda-linux-gnu-cc -I"/srv/conda/envs/notebook/lib/R/include" -DNDEBUG   -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /srv/conda/envs/notebook/include -I/srv/conda/envs/notebook/include -Wl,-rpath-link,/srv/conda/envs/notebook/lib    -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /srv/conda/envs/notebook/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1689933267587/work=/usr/local/src/conda/r-base-4.3.1 -fdebug-prefix-map=/srv/conda/envs/notebook=/usr/local/src/conda-prefix  -c init.c -o init.o
+x86_64-conda-linux-gnu-c++ -std=gnu++17 -I"/srv/conda/envs/notebook/lib/R/include" -DNDEBUG   -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /srv/conda/envs/notebook/include -I/srv/conda/envs/notebook/include -Wl,-rpath-link,/srv/conda/envs/notebook/lib    -fpic  -fvisibility-inlines-hidden  -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /srv/conda/envs/notebook/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1689933267587/work=/usr/local/src/conda/r-base-4.3.1 -fdebug-prefix-map=/srv/conda/envs/notebook=/usr/local/src/conda-prefix  -c kspectrumweight.cpp -o kspectrumweight.o
+x86_64-conda-linux-gnu-c++ -std=gnu++17 -I"/srv/conda/envs/notebook/lib/R/include" -DNDEBUG   -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /srv/conda/envs/notebook/include -I/srv/conda/envs/notebook/include -Wl,-rpath-link,/srv/conda/envs/notebook/lib    -fpic  -fvisibility-inlines-hidden  -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /srv/conda/envs/notebook/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1689933267587/work=/usr/local/src/conda/r-base-4.3.1 -fdebug-prefix-map=/srv/conda/envs/notebook=/usr/local/src/conda-prefix  -c lcp.cpp -o lcp.o
+x86_64-conda-linux-gnu-cc -I"/srv/conda/envs/notebook/lib/R/include" -DNDEBUG   -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /srv/conda/envs/notebook/include -I/srv/conda/envs/notebook/include -Wl,-rpath-link,/srv/conda/envs/notebook/lib    -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /srv/conda/envs/notebook/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1689933267587/work=/usr/local/src/conda/r-base-4.3.1 -fdebug-prefix-map=/srv/conda/envs/notebook=/usr/local/src/conda-prefix  -c misc.c -o misc.o
+x86_64-conda-linux-gnu-c++ -std=gnu++17 -I"/srv/conda/envs/notebook/lib/R/include" -DNDEBUG   -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /srv/conda/envs/notebook/include -I/srv/conda/envs/notebook/include -Wl,-rpath-link,/srv/conda/envs/notebook/lib    -fpic  -fvisibility-inlines-hidden  -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /srv/conda/envs/notebook/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1689933267587/work=/usr/local/src/conda/r-base-4.3.1 -fdebug-prefix-map=/srv/conda/envs/notebook=/usr/local/src/conda-prefix  -c msufsort.cpp -o msufsort.o
+x86_64-conda-linux-gnu-cc -I"/srv/conda/envs/notebook/lib/R/include" -DNDEBUG   -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /srv/conda/envs/notebook/include -I/srv/conda/envs/notebook/include -Wl,-rpath-link,/srv/conda/envs/notebook/lib    -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /srv/conda/envs/notebook/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1689933267587/work=/usr/local/src/conda/r-base-4.3.1 -fdebug-prefix-map=/srv/conda/envs/notebook=/usr/local/src/conda-prefix  -c solvebqp.c -o solvebqp.o
+x86_64-conda-linux-gnu-cc -I"/srv/conda/envs/notebook/lib/R/include" -DNDEBUG   -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /srv/conda/envs/notebook/include -I/srv/conda/envs/notebook/include -Wl,-rpath-link,/srv/conda/envs/notebook/lib    -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /srv/conda/envs/notebook/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1689933267587/work=/usr/local/src/conda/r-base-4.3.1 -fdebug-prefix-map=/srv/conda/envs/notebook=/usr/local/src/conda-prefix  -c stringk.c -o stringk.o
+x86_64-conda-linux-gnu-c++ -std=gnu++17 -I"/srv/conda/envs/notebook/lib/R/include" -DNDEBUG   -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /srv/conda/envs/notebook/include -I/srv/conda/envs/notebook/include -Wl,-rpath-link,/srv/conda/envs/notebook/lib    -fpic  -fvisibility-inlines-hidden  -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /srv/conda/envs/notebook/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1689933267587/work=/usr/local/src/conda/r-base-4.3.1 -fdebug-prefix-map=/srv/conda/envs/notebook=/usr/local/src/conda-prefix  -c stringkernel.cpp -o stringkernel.o
+x86_64-conda-linux-gnu-c++ -std=gnu++17 -I"/srv/conda/envs/notebook/lib/R/include" -DNDEBUG   -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /srv/conda/envs/notebook/include -I/srv/conda/envs/notebook/include -Wl,-rpath-link,/srv/conda/envs/notebook/lib    -fpic  -fvisibility-inlines-hidden  -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /srv/conda/envs/notebook/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1689933267587/work=/usr/local/src/conda/r-base-4.3.1 -fdebug-prefix-map=/srv/conda/envs/notebook=/usr/local/src/conda-prefix  -c svm.cpp -o svm.o
+x86_64-conda-linux-gnu-c++ -std=gnu++17 -I"/srv/conda/envs/notebook/lib/R/include" -DNDEBUG   -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /srv/conda/envs/notebook/include -I/srv/conda/envs/notebook/include -Wl,-rpath-link,/srv/conda/envs/notebook/lib    -fpic  -fvisibility-inlines-hidden  -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /srv/conda/envs/notebook/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1689933267587/work=/usr/local/src/conda/r-base-4.3.1 -fdebug-prefix-map=/srv/conda/envs/notebook=/usr/local/src/conda-prefix  -c wkasailcp.cpp -o wkasailcp.o
+x86_64-conda-linux-gnu-c++ -std=gnu++17 -I"/srv/conda/envs/notebook/lib/R/include" -DNDEBUG   -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /srv/conda/envs/notebook/include -I/srv/conda/envs/notebook/include -Wl,-rpath-link,/srv/conda/envs/notebook/lib    -fpic  -fvisibility-inlines-hidden  -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /srv/conda/envs/notebook/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1689933267587/work=/usr/local/src/conda/r-base-4.3.1 -fdebug-prefix-map=/srv/conda/envs/notebook=/usr/local/src/conda-prefix  -c wmsufsort.cpp -o wmsufsort.o
+x86_64-conda-linux-gnu-c++ -std=gnu++17 -shared -L/srv/conda/envs/notebook/lib/R/lib -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/srv/conda/envs/notebook/lib -Wl,-rpath-link,/srv/conda/envs/notebook/lib -L/srv/conda/envs/notebook/lib -o kernlab.so brweight.o ctable.o cweight.o dbreakpt.o dcauchy.o dgpnrm.o dgpstep.o dprecond.o dprsrch.o dspcg.o dtron.o dtrpcg.o dtrqsol.o esa.o expdecayweight.o inductionsort.o init.o kspectrumweight.o lcp.o misc.o msufsort.o solvebqp.o stringk.o stringkernel.o svm.o wkasailcp.o wmsufsort.o -llapack -lblas -lgfortran -lm -lquadmath -L/srv/conda/envs/notebook/lib/R/lib -lR
+installing to /srv/conda/envs/notebook/lib/R/library/00LOCK-kernlab/00new/kernlab/libs
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+Creating a new generic function for ‘pattern’ in package ‘kernlab’
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (kernlab)
+
+The downloaded source packages are in
+	‘/tmp/RtmpXDIXjY/downloaded_packages’
+trying URL 'https://cran.r-project.org/src/contrib/randomForest_4.7-1.1.tar.gz'
+Content type 'application/x-gzip' length 80886 bytes (78 KB)
+==================================================
+downloaded 78 KB
+
+* installing *source* package ‘randomForest’ ...
+** package ‘randomForest’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘x86_64-conda-linux-gnu-cc (conda-forge gcc 13.1.0-0) 13.1.0’
+using Fortran compiler: ‘GNU Fortran (conda-forge gcc 13.1.0-0) 13.1.0’
+x86_64-conda-linux-gnu-cc -I"/srv/conda/envs/notebook/lib/R/include" -DNDEBUG   -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /srv/conda/envs/notebook/include -I/srv/conda/envs/notebook/include -Wl,-rpath-link,/srv/conda/envs/notebook/lib    -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /srv/conda/envs/notebook/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1689933267587/work=/usr/local/src/conda/r-base-4.3.1 -fdebug-prefix-map=/srv/conda/envs/notebook=/usr/local/src/conda-prefix  -c classTree.c -o classTree.o
+x86_64-conda-linux-gnu-cc -I"/srv/conda/envs/notebook/lib/R/include" -DNDEBUG   -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /srv/conda/envs/notebook/include -I/srv/conda/envs/notebook/include -Wl,-rpath-link,/srv/conda/envs/notebook/lib    -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /srv/conda/envs/notebook/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1689933267587/work=/usr/local/src/conda/r-base-4.3.1 -fdebug-prefix-map=/srv/conda/envs/notebook=/usr/local/src/conda-prefix  -c init.c -o init.o
+x86_64-conda-linux-gnu-cc -I"/srv/conda/envs/notebook/lib/R/include" -DNDEBUG   -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /srv/conda/envs/notebook/include -I/srv/conda/envs/notebook/include -Wl,-rpath-link,/srv/conda/envs/notebook/lib    -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /srv/conda/envs/notebook/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1689933267587/work=/usr/local/src/conda/r-base-4.3.1 -fdebug-prefix-map=/srv/conda/envs/notebook=/usr/local/src/conda-prefix  -c regTree.c -o regTree.o
+x86_64-conda-linux-gnu-cc -I"/srv/conda/envs/notebook/lib/R/include" -DNDEBUG   -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /srv/conda/envs/notebook/include -I/srv/conda/envs/notebook/include -Wl,-rpath-link,/srv/conda/envs/notebook/lib    -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /srv/conda/envs/notebook/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1689933267587/work=/usr/local/src/conda/r-base-4.3.1 -fdebug-prefix-map=/srv/conda/envs/notebook=/usr/local/src/conda-prefix  -c regrf.c -o regrf.o
+x86_64-conda-linux-gnu-cc -I"/srv/conda/envs/notebook/lib/R/include" -DNDEBUG   -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /srv/conda/envs/notebook/include -I/srv/conda/envs/notebook/include -Wl,-rpath-link,/srv/conda/envs/notebook/lib    -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /srv/conda/envs/notebook/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1689933267587/work=/usr/local/src/conda/r-base-4.3.1 -fdebug-prefix-map=/srv/conda/envs/notebook=/usr/local/src/conda-prefix  -c rf.c -o rf.o
+x86_64-conda-linux-gnu-gfortran  -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /srv/conda/envs/notebook/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1689933267587/work=/usr/local/src/conda/r-base-4.3.1 -fdebug-prefix-map=/srv/conda/envs/notebook=/usr/local/src/conda-prefix  -c rfsub.f -o rfsub.o
+x86_64-conda-linux-gnu-cc -I"/srv/conda/envs/notebook/lib/R/include" -DNDEBUG   -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /srv/conda/envs/notebook/include -I/srv/conda/envs/notebook/include -Wl,-rpath-link,/srv/conda/envs/notebook/lib    -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /srv/conda/envs/notebook/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1689933267587/work=/usr/local/src/conda/r-base-4.3.1 -fdebug-prefix-map=/srv/conda/envs/notebook=/usr/local/src/conda-prefix  -c rfutils.c -o rfutils.o
+x86_64-conda-linux-gnu-cc -shared -L/srv/conda/envs/notebook/lib/R/lib -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/srv/conda/envs/notebook/lib -Wl,-rpath-link,/srv/conda/envs/notebook/lib -L/srv/conda/envs/notebook/lib -o randomForest.so classTree.o init.o regTree.o regrf.o rf.o rfsub.o rfutils.o -lgfortran -lm -lquadmath -L/srv/conda/envs/notebook/lib/R/lib -lR
+installing to /srv/conda/envs/notebook/lib/R/library/00LOCK-randomForest/00new/randomForest/libs
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (randomForest)
+
+The downloaded source packages are in
+	‘/tmp/RtmpXDIXjY/downloaded_packages’
+[I 2023-07-27 18:28:53.018 ServerApp] Saving file at /rMLP.ipynb

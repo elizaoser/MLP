@@ -1,0 +1,13 @@
+{
+  "base_url": "/user/elizaoser-mlp-1npinnmq/",
+  "hostname": "0.0.0.0",
+  "password": false,
+  "pid": 54,
+  "port": 8888,
+  "root_dir": "/home/jovyan",
+  "secure": false,
+  "sock": "",
+  "token": "-nuzKrWfQii-EiSxv0vwOQ",
+  "url": "http://jupyter-elizaoser-2dmlp-2d1npinnmq:8888/user/elizaoser-mlp-1npinnmq/",
+  "version": "1.23.6"
+}
